@@ -14,7 +14,8 @@
 		BB75A96423F894EC00835734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB75A96323F894EC00835734 /* Assets.xcassets */; };
 		BB75A96723F894EC00835734 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB75A96623F894EC00835734 /* Preview Assets.xcassets */; };
 		BB75A96A23F894EC00835734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB75A96823F894EC00835734 /* LaunchScreen.storyboard */; };
-		BB75A97423F8953F00835734 /* CTRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75A97323F8953F00835734 /* CTRating.swift */; };
+		BB75A97423F8953F00835734 /* CTRating-old.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75A97323F8953F00835734 /* CTRating-old.swift */; };
+		E4B7567F29272C8800665949 /* CTRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7567E29272C8800665949 /* CTRating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,8 @@
 		BB75A96623F894EC00835734 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB75A96923F894EC00835734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB75A96B23F894EC00835734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB75A97323F8953F00835734 /* CTRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTRating.swift; sourceTree = "<group>"; };
+		BB75A97323F8953F00835734 /* CTRating-old.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CTRating-old.swift"; sourceTree = "<group>"; };
+		E4B7567E29272C8800665949 /* CTRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTRating.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,8 @@
 				BB75A96823F894EC00835734 /* LaunchScreen.storyboard */,
 				BB75A96B23F894EC00835734 /* Info.plist */,
 				BB75A96523F894EC00835734 /* Preview Content */,
-				BB75A97323F8953F00835734 /* CTRating.swift */,
+				BB75A97323F8953F00835734 /* CTRating-old.swift */,
+				E4B7567E29272C8800665949 /* CTRating.swift */,
 				BB0B01E023F89A5A006F86E5 /* Services.swift */,
 			);
 			path = "Documentation Example";
@@ -153,9 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB0B01E123F89A5A006F86E5 /* Services.swift in Sources */,
+				E4B7567F29272C8800665949 /* CTRating.swift in Sources */,
 				BB75A95E23F894EB00835734 /* AppDelegate.swift in Sources */,
 				BB75A96023F894EB00835734 /* SceneDelegate.swift in Sources */,
-				BB75A97423F8953F00835734 /* CTRating.swift in Sources */,
+				BB75A97423F8953F00835734 /* CTRating-old.swift in Sources */,
 				BB75A96223F894EB00835734 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

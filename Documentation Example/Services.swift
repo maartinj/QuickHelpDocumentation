@@ -15,6 +15,14 @@ struct Service {
         case badPassword
     }
     
+    /// A Credentials Validator
+    ///
+    /// This is for checking credentials
+    /// - Parameters:
+    ///   - username: a string representing the username
+    ///   - password: a string representing the password
+    /// - Throws: An error of type `CredentialErrors`
+    /// - Returns: Returns true if no errors are thrown
     static func validateCredentials(username: String, password: String) throws -> Bool {
         if username.count < 4 {
             throw CredentialErrors.badUserName

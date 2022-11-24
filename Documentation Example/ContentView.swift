@@ -10,8 +10,17 @@ import SwiftUI
 
 
 struct ContentView: View {
+    @State var currentRating = 2
     var body: some View {
+        VStack {
             Text("Hello World")
+            CTRating(maxRating: 5,
+                     currentRating: $currentRating,
+                     width: 50,
+                     color: .red,
+                     openSFSymbol: "hearth",
+                     fillSFSymbol: "heart.fill")
+        }
     }
 }
 
